@@ -1,0 +1,29 @@
+.form{
+    max-width: 640px;
+    width: 100%;
+    margin: 56px auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 1%;
+    background-color:red ;
+
+    &__produto{
+        cursor: pointer;
+    background-color: #ffff42;
+
+    }
+
+    &__destaque{
+
+        background-color: antiquewhite;
+
+    }
+
+    &__final{
+        background-color: aqua;
+    border: 2px solid gold;
+    padding: 8px;
+    background-color: #ffff42;
+
+    }
+}
